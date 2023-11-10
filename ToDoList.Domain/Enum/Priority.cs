@@ -8,8 +8,10 @@ namespace ToDoList.Domain.Enum
 {
     public enum Priority
     {
-        Easy=1,
-        Medium=2,
-        Hard=3
+        [Display(Name = "Простая")]
+        Easy = 1,
+        [Display(Name = "Важная")]
+        Medium = 2,
+        [Display(Name = "Критическая")]
     }
 }
